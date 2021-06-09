@@ -1,0 +1,110 @@
+<html>
+<head>
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Formulário</title>
+    <link href="style.css" 
+	      rel="stylesheet" 
+		  type="text/css" 
+    />
+	<link 
+	rel="stylesheet"
+	href="https://fonts.googleapis.com/css2?family=Dancing Script" 
+	>
+	<link 
+	rel="preconnect" 
+	href="https://fonts.gstatic.com">
+    <link 
+	href="https://fonts.googleapis.com/css2?family=Mate+SC&display=swap" 
+	rel="stylesheet">
+	<link rel="icon" href="Imagem/_Logotipo.png" type="Imagem/_Logotipo.png"/> <!-- Logo da Página  -->
+	 <a href="index.html"><img  class="logo"  src="Imagem/Logotipo1.jpg"></a>
+</head>
+		<h2 id="marcaPag">Restaurante da Mamãe</h2>
+<body>
+    <header>
+	<nav  class="navegacao">
+		<ul class="fundo-nav" class="nav-lista">
+		    <li class="nav-lista-item">
+		    <a class="nav-link" href="index.html" >Home</a>
+			</li>
+			<li class="nav-lista-item">
+		    <a class="nav-link" href="Cardapio.html" >Cardapio</a>
+			</li>
+			<li class="nav-lista-item">
+		    <a class="nav-link" href="Formulario.html" >Formulário</a>
+			</li>
+		</ul>
+	</nav>
+	<section class="formulario">
+	<h1 class="titulo-começo" class="body">Formulário</h1>
+	<a class="linhas" class="body">Esse é o nosso Formulario de contato, ser você quiser pode nos chama pelo Whatsapp, ou preenche o Formulario, <br>
+	apois preenche iremos entra em contato com você, pagamento só na hora da entrega.<br><br>
+     <form action="xx" method="post">
+         <fieldset id="fundo-formulario" class="Formulario">
+		     <legend class="contato"> Contato </legend>
+			 <label for="nome" >Nome:</label>
+			 <input id="area-de-preenche" type="text" name="Nome" id="Nome" size="50px" required placeholder="Escreva seu Nome Completo">
+			 <br>
+			 <label for="email" >Email:</label>
+			 <input id="area-de-preenche" type="text" name="Email" id="Email" size="50px" required placeholder="Email principal">
+			 <br>
+			 <label for="telefone" >Telefone:</label>
+			 <input id="area-de-preenche" type="text" name="Telefone" id="Telefone" size="50px" required placeholder="Coloque seu Telefone">
+			 <br>
+			 <label for="Contato">Tipo de Contato:</label><br>
+			 <input class="tipo-de-contato" type="radio" name="Contato" id="Contato" value="Celular" required placeholder="Coloque seu Telefone"> <label for="Celular">Celular</label>
+			 <input class="tipo-de-contato" type="radio" name="Contato" id="Contato" value="Email" required placeholder="Coloque seu Telefone"> <label for="Email">Email</label>
+			 <input class="tipo-de-contato" type="radio" name="Contato" id="Contato" value="Telefone" required placeholder="Coloque seu Telefone"> <label for="Telefone">Telefone</label>
+			 <br>
+			 <label for="contato">Escolha seus Lanches:</label><br>
+			 <input id="lanches1"type="checkbox" name="Lanches" id="N1"> <label  for="N1">Burguer-Bacon(Número 1)</label><br>
+			 <input id="lanches1"type="checkbox" name="Lanches" id="N2"> <label  for="N2">Burguer-Salada(Número 2)</label><br>
+			 <input id="lanches1"type="checkbox" name="Lanches" id="N3"> <label  for="N3">Burguer(Número 3)</label><br>
+			 <input id="lanches1"type="checkbox" name="Lanches" id="N4"> <label  for="N4">Extremo-cheddar(Número 4)</label><br>
+			 <input id="lanches1"type="checkbox" name="Lanches" id="N5"> <label  for="N5">Extremo-tudo(Número 5)</label><br>
+			 <input id="lanches1"type="checkbox" name="Lanches" id="N6"> <label  for="N6">Coxinha normal(Número 6)</label><br>
+			 <input id="lanches1"type="checkbox" name="Lanches" id="N5"> <label  for="N7">Bolo Caseiro(Número 7)</label><br>
+			 <input id="lanches1"type="checkbox" name="Lanches" id="N6"> <label  for="N8">Bolo para festa(Número 8)</label><br>
+			 <input id="lanches1"type="checkbox" name="Lanches" id="N4"> <label  for="N9">Torta(Número 9)</label><br>
+			 <input id="lanches1"type="checkbox" name="Lanches" id="N5"> <label  for="N10">Pão de Mel(Número 10)</label><br>
+			 <input id="lanches1"type="checkbox" name="Lanches" id="N6"> <label  for="N11">Pão de Mel caseiro(Número 11)</label><br>
+			 <input id="lanches1"type="checkbox" name="Lanches" id="N5"> <label  for="N12">Petit Gateau(Número 12)</label><br>
+			 <input id="lanches1"type="checkbox" name="Lanches" id="N6"> <label  for="N13">Donult(Número 13)</label><br>
+			 <label for="interesse" id="interesse">Escolha</label>
+			 <select class="escolha" name="interesse" id="interesse">
+			     <option  value="entrega-em-casa">Entrega em casa;</option>
+				 <option  value="busca">Retira no restaurente;</option>
+			 </select><br>
+			 <label for="obs">Escreva sua obsevarção aqui:</label><br>
+			 <textarea class="obs" name="obs" id="obs" cols="30" rows="5" placeholder="Aqui é pra pode explica, ser você vai querer tira algum ingrediente, escolhe suas bebidas entre outras."></textarea>
+			 <br>
+			 <input class="botão" type="submit" name="btnEnvio" value="Envia">
+			 &nbsp;&nbsp;
+			 <input class="botão-reset" type="reset" name="btnReset" value="Reseta">
+		 </fieldset>
+		 <a class="cartao">Cartões que aceitamos:</a><br>
+	    Sodexo(Refição);<br>
+	    Alelo(Refeição);<br>
+	    Cartão de Débito;<br>
+	    Cartão de Crédito;<br>
+	    Dinheiro(Informa ser vai precisa de troco).<br></a>
+	</section>
+	<footer class="rodape">
+	<section class="rodape-seção">
+		    <h3>RGM e Email</h3>
+			<p>RGM:25636171</p>
+			<p>michael.raposo@hotmail.com</p>
+		</section>
+		<section class="rodape-seção">
+		    <h3>Curso</h3>
+			<p>Aplicações Para Internet - K_ (Not) _UCS-SA_UCS</p>
+			<p>Turma:1/K</p>
+			<p>Turno:Noturno</p>
+		</section>
+		
+		copyrigth &copy; Michael Alcantara Raposo da Silva.
+	</footer>
+</body>
+</body>
+</html>
